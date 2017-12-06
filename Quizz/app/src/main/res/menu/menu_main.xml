@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.hp.overflowmenu2.MainActivity">
+
+    <item
+        android:id="@+id/menu_about"
+        android:orderInCategory="1"
+        android:title="@string/strAbout"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_share"
+        android:orderInCategory="2"
+        android:title="@string/strShare"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_help_feedback"
+        android:orderInCategory="3"
+        android:title="@string/strHelpFeedback"
+        app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/menu_rate_us"
+        android:orderInCategory="4"
+        android:title="@string/strRateus"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_logout"
+        android:orderInCategory="5"
+        android:title="@string/strLogout"
+        app:showAsAction="never" />
+
+</menu>

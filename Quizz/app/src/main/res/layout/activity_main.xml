@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:context="com.myapp.vaibhav.quizz.MainActivity"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/textColor">
+
+    <RelativeLayout
+        android:id="@+id/activity_user_login"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/textColor">
+
+        <RelativeLayout
+            android:layout_height="250dp"
+            android:layout_width="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="@drawable/backgroundmain"
+            android:id="@+id/rlayout1">
+
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Welcome"
+                android:textSize="20sp"
+                android:layout_centerHorizontal="true"
+                android:textColor="@android:color/background_light" />
+
+            <TextView
+                android:text="TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:id="@+id/textView16"
+                android:textSize="25sp"
+                android:layout_below="@+id/imageView2"
+                android:layout_centerHorizontal="true"
+                android:textColor="@android:color/background_light"
+                android:textStyle="normal|bold" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                app:srcCompat="@mipmap/ic_launcher"
+                android:layout_below="@+id/textView10"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:layout_width="120dp"
+                android:layout_height="120dp" />
+
+            <TextView
+                android:text="TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView16"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/textView24"
+                android:layout_marginTop="5dp"
+                android:textColor="@android:color/background_light" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_height="200dp"
+            android:layout_width="match_parent"
+            android:layout_below="@+id/rlayout1"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="30dp">
+
+            <TextView
+                android:text="View YOUR PAST Scores"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:id="@+id/textView25"
+                android:textAllCaps="true"
+                android:textSize="18sp"
+                android:onClick="viewScoresMeth"
+                android:textColor="@color/colorPrimaryDark2"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true" />
+
+            <Button
+                android:text="BEGIN"
+                android:layout_width="wrap_content"
+                android:id="@+id/playButton"
+                android:textSize="16sp"
+                android:onClick="playQuizMeth"
+                android:layout_height="40dp"
+                android:textColor="@android:color/background_light"
+                android:background="@color/componentColor"
+                android:drawableRight="@android:drawable/ic_media_play"
+                android:padding="10dp"
+                android:layout_above="@+id/textView25"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="30dp" />
+
+            <TextView
+                android:text="It's time to put your skills to the test. Tap the button below to get started!"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/textView4"
+                android:textAlignment="center"
+                android:layout_marginTop="15dp" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+</ScrollView>

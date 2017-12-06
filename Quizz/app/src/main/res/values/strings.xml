@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Quizz</string>
+    <string name="spinner_title">Select</string>
+    <string name="strLogout">Log out</string>
+    <string name="strAbout">About</string>
+    <string name="strShare">Share</string>
+    <string name="strRateus">Rate us</string>
+    <string name="strHelpFeedback">Help &amp; Feedback</string>
+</resources>

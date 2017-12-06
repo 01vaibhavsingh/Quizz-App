@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="colorPrimary2">#536e7b</color>
+    <color name="colorPrimaryDark2">#465b64</color>
+    <color name="colorAccent2">#89c247</color>
+
+    <color name="appBackGround">#536e7b</color>
+    <color name="componentColor">#89c247</color>
+
+    <color name="textColor">#dde2e4</color>
+    <color name="textColor2">#ffffffff</color>
+
+    <color name="rightAnswer">#88c147</color>
+    <color name="wrongAnswer">#b4556b</color>
+</resources>
